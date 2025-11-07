@@ -1,0 +1,11 @@
+
+{
+  "name": "my-smallbiz-site",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0"
+  }
+}

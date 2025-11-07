@@ -1,1 +1,21 @@
-<h1>Contact Us</h1><p>Get in touch with us.</p>
+---
+layout: layout.html
+title: Contact
+---
+
+<h1>Contact Us</h1>
+https://formspree.io/f/your-form-id
+  <div class="mb-3">
+    <label for="name" class="form-label">Name</label>
+    <input type="text" name="name" id="name" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label for="email" class="form-label">Email</label>
+    <input type="email" name="_replyto" id="email" class="form-control" required>
+  </div>
+  <div class="mb-3">
+    <label for="message" class="form-label">Message</label>
+    <textarea name="message" id="message" rows="5" class="form-control" required></textarea>
+  </div>
+  <button type="submit" class="btn btn-primary">Send</button>
+</form>
